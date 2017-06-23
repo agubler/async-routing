@@ -9,7 +9,15 @@ function getProperties(appState: AppState, properties: any) {
 	}
 
 	return {
-		issues: appState.getIssues(properties.repo)
+		issues: appState.getIssues(properties.repo),
+		firstPage: appState.firstPage.bind(appState),
+		previousPage: appState.previousPage.bind(appState),
+		nextPage: appState.nextPage.bind(appState),
+		lastPage: appState.lastPage.bind(appState),
+		hasFirstPage: appState.hasFirstPage.bind(appState),
+		hasPreviousPage: appState.hasPreviousPage.bind(appState),
+		hasNextPage: appState.hasNextPage.bind(appState),
+		hasLastPage: appState.hasLastPage.bind(appState)
 	};
 }
 

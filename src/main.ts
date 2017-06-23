@@ -19,13 +19,7 @@ const config = [
 		children: [
 			{
 				path: 'repo/{repo}',
-				outlet: 'repo',
-				children: [
-					{
-						path: 'details/{id}',
-						outlet: 'details'
-					}
-				]
+				outlet: 'repo'
 			}
 		]
 	}

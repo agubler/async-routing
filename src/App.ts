@@ -25,9 +25,7 @@ export class App extends WidgetBase {
 	protected render(): DNode {
 		return v('div', [
 			v('div', getLinks(['examples', 'widget-core', 'widgets'])),
-			v('ul', [
-				w(IssuesOutlet, {})
-			])
+			w(IssuesOutlet, {})
 		]);
 	}
 }
