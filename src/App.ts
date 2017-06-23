@@ -3,7 +3,7 @@ import { v, w } from '@dojo/widget-core/d';
 import { DNode } from '@dojo/widget-core/interfaces';
 import { Link } from '@dojo/routing/Link';
 
-import { IssuesOutlet } from './outlets/RouteOutlet';
+import { IssuesOutlet } from './outlets/IssuesOutlet';
 
 function getLinks(repos: string[]): DNode[] {
 	return repos.map((repo) => {
