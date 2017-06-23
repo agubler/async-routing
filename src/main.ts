@@ -11,7 +11,6 @@ registry.define('state', Injector(BaseInjector, new AppState()));
 const Projector = ProjectorMixin(App);
 const projector = new Projector();
 
-
 const config = [
 	{
 		path: '/',

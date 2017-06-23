@@ -15,7 +15,7 @@ function getLinks(repos: string[]): DNode[] {
 			},
 			isOutlet: true,
 			styles: { 'margin-right': '20px' }
-		}, [ repo ])
+		}, [ repo ]);
 	});
 
 }

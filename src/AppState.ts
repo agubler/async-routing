@@ -3,7 +3,7 @@ import request from '@dojo/core/request';
 
 export class AppState extends Evented {
 
-	private _appState: { [key: string]: any[] } = {}
+	private _appState: { [key: string]: any[] } = {};
 
 	private _currentRepo: string;
 
